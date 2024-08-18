@@ -1,0 +1,47 @@
+/* Style the options container */
+#options {
+    list-style: none;
+    padding: 0;
+}
+
+/* Style each option */
+#options li {
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Add hover effect */
+#options li:hover {
+    background-color: #e5e5e5;
+}
+
+/* Style the selected option */
+#options li.selected {
+    background-color: #007bff;
+}
+
+/* Style the navigation buttons */
+#navigation-buttons {
+    margin-top: 20px;
+}
+
+/* Style the submit button */
+#submit-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Add hover effect for submit button */
+#submit-button:hover {
+    background-color: #161718;
+}
